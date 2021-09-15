@@ -15,7 +15,6 @@ RUN npm ci
 # into the root of the WORKDIR
 COPY . .
 
-RUN npm test
 RUN npm run build
 
 # Exposes port 3000
